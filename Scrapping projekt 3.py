@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 import csv
 
 def main(hlavni_url, jmeno_souboru):
-    if "https:" not in hlavni_url:
+    if "https://volby.cz/pls/ps2017nss" not in hlavni_url:
         print("Špatně zadané url, ukončuji program")
         quit()
     elif ".csv" not in jmeno_souboru:
