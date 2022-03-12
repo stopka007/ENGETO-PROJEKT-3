@@ -4,10 +4,10 @@ import csv
 
 def main(hlavni_url, jmeno_souboru):
     if "https:" not in hlavni_url:
-        print("Špatně zadané url")
+        print("Špatně zadané url, ukončuji program")
         quit()
     elif ".csv" not in jmeno_souboru:
-        print("Špatně zadaný název souboru")
+        print("Špatně zadaný název souboru, ukončuji program")
         quit()
     else:
         sekundarni_url = ziskej_sekundarni_url(zpracuj_vsechny_obce(hlavni_url))
