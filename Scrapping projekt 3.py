@@ -31,7 +31,7 @@ def main(hlavni_url, jmeno_souboru):
             zapis_csv(zapis, jmeno_souboru)
         print("Data byla zapsána, ukončuji program")
 
-# pro uvod
+
 def zapis_csv(vysledny_zapis,jmeno_souboru):
     with open(jmeno_souboru, "a+", encoding="utf-8", newline='') as csv_vystup:
         zapisovani = csv.writer(csv_vystup)
@@ -65,7 +65,7 @@ def ziskej_sekundarni_url(obce):
     url2 = ["https://volby.cz/pls/ps2017nss/" + url_list[i] for i in range(len(url_list))]
     return url2
 
-# pro for cyklus
+
 def zpracuj_informace_voleb(url):
     odpoved = requests.get(url)
     soup = BeautifulSoup(odpoved.text, "html.parser")
