@@ -8,7 +8,7 @@ Všechny knihovny potřebné ke správnému spuštění kódu jsou uložené v s
 Spuštění projektu Scrapping Projekt 3.py po vás bude vyžadovat 2 argumenty. Do prvního zadáte url již vybrané obce pomocí X pod kolonkou "Výběr obce" ze stránek v popisu projektu a do druhého zadáte jméno souboru do kterého se vám následně uloží výsledky. Jméno souboru musí být zakončeno příponou ".csv"
 # Ukázka projektu
 Výsledky hlasování pro Prahu:
-1. argument: https://volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=1&xnumnuts=1100 , 
+1. argument: https://volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=1&xnumnuts=1100  
 2. argument: vysledky_praha.csv
 
 Spuštění programu:
